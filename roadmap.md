@@ -8,3 +8,4 @@
 - [x] Verify desktop, tablet, mobile, reduced motion, interactions, and overflow.
 - [x] Move sample stories every four seconds with controls that scale beyond ten stories.
 - [x] Convert Chosen with Care to a responsive, non-scrolling image grid.
+- [x] Keep automatic story movement from changing the visitor's page position.
