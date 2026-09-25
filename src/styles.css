@@ -77,48 +77,48 @@
 :root {
   --radius: 0.55rem;
   --radius-card: 0.45rem;
-  --background: oklch(0.99 0.004 85);
-  --foreground: oklch(0.22 0.045 250);
-  --cream: oklch(0.97 0.018 80);
-  --gold: oklch(0.76 0.12 76);
-  --surface: oklch(0.965 0.012 79);
-  --whatsapp: oklch(0.64 0.17 151);
-  --whatsapp-foreground: oklch(0.99 0 0);
-  --footer: oklch(0.18 0.044 250);
-  --footer-foreground: oklch(0.97 0.012 80);
-  --footer-muted: oklch(0.76 0.02 246);
-  --shadow-soft: 0 10px 32px oklch(0.2 0.04 250 / 0.09);
-  --shadow-card: 0 18px 46px oklch(0.2 0.04 250 / 0.15);
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.29 0 0);
+  --cream: oklch(1 0 0);
+  --gold: oklch(0.88 0.19 99);
+  --surface: oklch(0.97 0.003 264);
+  --whatsapp: oklch(0.39 0.15 257);
+  --whatsapp-foreground: oklch(1 0 0);
+  --footer: oklch(0.39 0.15 257);
+  --footer-foreground: oklch(1 0 0);
+  --footer-muted: oklch(0.88 0.02 255);
+  --shadow-soft: 0 10px 32px oklch(0.39 0.15 257 / 0.09);
+  --shadow-card: 0 18px 46px oklch(0.39 0.15 257 / 0.15);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.29 0 0);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.67 0.16 55);
-  --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.29 0.06 247);
-  --secondary-foreground: oklch(0.98 0.01 80);
-  --muted: oklch(0.95 0.01 80);
-  --muted-foreground: oklch(0.49 0.025 248);
-  --accent: oklch(0.93 0.035 78);
-  --accent-foreground: oklch(0.25 0.045 250);
+  --popover-foreground: oklch(0.29 0 0);
+  --primary: oklch(0.39 0.15 257);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.88 0.19 99);
+  --secondary-foreground: oklch(0.39 0.15 257);
+  --muted: oklch(0.97 0.003 264);
+  --muted-foreground: oklch(0.51 0 0);
+  --accent: oklch(0.88 0.19 99);
+  --accent-foreground: oklch(0.39 0.15 257);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.88 0.018 80);
-  --input: oklch(0.84 0.025 79);
-  --ring: oklch(0.67 0.16 55);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.984 0.003 247.858);
-  --sidebar-foreground: oklch(0.129 0.042 264.695);
-  --sidebar-primary: oklch(0.208 0.042 265.755);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.968 0.007 247.896);
-  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
-  --sidebar-border: oklch(0.929 0.013 255.508);
-  --sidebar-ring: oklch(0.704 0.04 256.788);
+  --border: oklch(0.9 0.008 255);
+  --input: oklch(0.82 0.012 255);
+  --ring: oklch(0.88 0.19 99);
+  --chart-1: oklch(0.39 0.15 257);
+  --chart-2: oklch(0.88 0.19 99);
+  --chart-3: oklch(0.51 0 0);
+  --chart-4: oklch(0.62 0.11 257);
+  --chart-5: oklch(0.76 0.14 99);
+  --sidebar: oklch(1 0 0);
+  --sidebar-foreground: oklch(0.29 0 0);
+  --sidebar-primary: oklch(0.39 0.15 257);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.88 0.19 99);
+  --sidebar-accent-foreground: oklch(0.39 0.15 257);
+  --sidebar-border: oklch(0.9 0.008 255);
+  --sidebar-ring: oklch(0.88 0.19 99);
 }
 
 .dark {
@@ -214,11 +214,11 @@
 }
 
 @utility bg-hero-overlay {
-  background: linear-gradient(90deg, oklch(0.11 0.04 250 / 0.84) 0%, oklch(0.11 0.04 250 / 0.56) 48%, oklch(0.11 0.04 250 / 0.22) 100%);
+  background: linear-gradient(90deg, oklch(0.25 0.13 257 / 0.9) 0%, oklch(0.3 0.13 257 / 0.65) 48%, oklch(0.3 0.13 257 / 0.25) 100%);
 }
 
 @utility bg-card-overlay {
-  background: linear-gradient(180deg, transparent 32%, oklch(0.12 0.03 250 / 0.88) 100%);
+  background: linear-gradient(180deg, transparent 32%, oklch(0.25 0.13 257 / 0.92) 100%);
 }
 
 @utility destination-card {
@@ -301,7 +301,7 @@
 .airplane {
   width: 8.5rem;
   height: auto;
-  filter: drop-shadow(0 10px 8px oklch(0.08 0.03 250 / .38));
+  filter: drop-shadow(0 10px 8px oklch(0.25 0.13 257 / .38));
   animation: plane-flight 14s cubic-bezier(.45,.05,.4,.95) infinite;
   will-change: transform, opacity;
 }
@@ -349,7 +349,7 @@
   opacity: .34;
   overflow: hidden;
   pointer-events: none;
-  box-shadow: inset -1.8rem -1rem 2.8rem oklch(0.05 0.02 250 / .42), inset .8rem .5rem 1.8rem color-mix(in oklab, var(--cream) 12%, transparent);
+  box-shadow: inset -1.8rem -1rem 2.8rem oklch(0.25 0.13 257 / .48), inset .8rem .5rem 1.8rem color-mix(in oklab, var(--cream) 12%, transparent);
 }
 
 .travel-globe::before,
