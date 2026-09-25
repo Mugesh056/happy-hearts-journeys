@@ -9,3 +9,5 @@
 - [x] Move sample stories every four seconds with controls that scale beyond ten stories.
 - [x] Convert Chosen with Care to a responsive, non-scrolling image grid.
 - [x] Keep automatic story movement from changing the visitor's page position.
+- [ ] Apply the official blue, yellow, white, and neutral brand palette across the landing page.
+- [ ] Verify brand consistency and existing behavior on desktop, tablet, and mobile.
